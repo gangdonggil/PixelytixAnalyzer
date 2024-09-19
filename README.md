@@ -4,9 +4,10 @@
  - 컴파일: MSYS2 (mingw)
  - 라이브러리: 
 
-## MSYS 설치 라이브러리
+## 설치 라이브러리
+
 ### OpenCV
-- opencv 설치
+- opencv 설치 (MSYS 설치 라이브러리)
 `
 pacman -S mingw-w64-x86_64-opencv
 `
@@ -32,6 +33,7 @@ pacman -S mingw-w64-x86_64-cmake
 `
 
 ### Boost
+ - Boost 설치 (MSYS 설치 라이브러리)
 `
 pacman -S mingw-w64-x86_64-boost
 `
