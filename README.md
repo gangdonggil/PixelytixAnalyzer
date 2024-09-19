@@ -8,6 +8,7 @@
 
 ### OpenCV
 - opencv 설치 (MSYS 설치 라이브러리)
+
 `
 pacman -S mingw-w64-x86_64-opencv
 `
@@ -33,7 +34,8 @@ pacman -S mingw-w64-x86_64-cmake
 `
 
 ### Boost
- - Boost 설치 (MSYS 설치 라이브러리) 
+ - Boost 설치 (MSYS 설치 라이브러리)
+
 `
 pacman -S mingw-w64-x86_64-boost
 `
