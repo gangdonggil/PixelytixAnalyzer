@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "C:/msys64/mingw64/bin/g++",
+        "args": [
+          "-I", "G:/bin/opencv/build/include",                 // 헤더 파일 경로 (Windows)
+          "-L", "G:/bin/opencv/build/x64/vc16/lib",            // 라이브러리 경로 (Windows)
+          "-lopencv_core450", "-lopencv_imgcodecs450",     // OpenCV 라이브러리 링크
+          "-lopencv_highgui450",
+          "-g",
+          "${file}",
+          "-o",
+          "${fileDirname}/${fileBasenameNoExtension}.exe"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  
