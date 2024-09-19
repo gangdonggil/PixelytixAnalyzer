@@ -1,10 +1,10 @@
 # 컴파일러 및 플래그 설정
 CC = g++
 CFLAGS = -g -Wall
-LDFLAGS = -lopencv_core -lopencv_imgcodecs -lopencv_highgui  # OpenCV 라이브러리 의존성 추가
+LDFLAGS = -L/c/msys64/mingw64/lib -lopencv_core -lopencv_imgcodecs -lopencv_highgui  # OpenCV 라이브러리 의존성 추가
 
 # 소스 파일 및 오브젝트 파일
-SRC = main.cpp utils.cpp image_processing.cpp
+SRC = test.cpp
 OBJ = $(SRC:.cpp=.o)
 
 # 실행 파일 이름
