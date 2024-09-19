@@ -25,3 +25,20 @@ make
  - 다운로드 및 빌드하기
 
 ### TensorFlow C++ API 설치하기
+
+### CMake
+`
+pacman -S mingw-w64-x86_64-cmake
+`
+
+### Boost
+`
+pacman -S mingw-w64-x86_64-boost
+`
+
+### CUDA
+ - CUDA Toolkit 설치
+ - NVIDIA GPU 드라이버 설치
+
+
+
